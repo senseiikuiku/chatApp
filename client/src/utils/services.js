@@ -1,6 +1,6 @@
 // Địa chỉ cơ bản cho API. Tất cả các yêu cầu sẽ được gửi đến địa chỉ này.
-// export const baseUrl = "http://localhost:5000/api";
-export const baseUrl = "https://chatapp-lxyo.onrender.com/api";
+export const baseUrl = "http://localhost:5000/api";
+// export const baseUrl = "https://chatapp-lxyo.onrender.com/api";
 
 // Hàm postRequest thực hiện một yêu cầu HTTP POST đến một URL nhất định.
 // Nó nhận vào hai tham số: url (địa chỉ API) và body (dữ liệu gửi đi).
