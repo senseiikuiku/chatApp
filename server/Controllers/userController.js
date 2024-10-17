@@ -1,7 +1,7 @@
 // Import user model để tương tác với database MongoDB
 const userModel = require("../Models/userModel");
 // Import bcrypt để mã hóa mật khẩu và kiểm tra mật khẩu
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 // Import validator để xác thực email và mật khẩu
 const validator = require("validator");
 // Import jsonwebtoken để tạo JWT cho xác thực
