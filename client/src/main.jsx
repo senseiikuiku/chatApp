@@ -2,7 +2,8 @@ import React from "react";
 import ReactDom from "react-dom/client";
 import App from "./App.jsx";
 import "./index.css";
-import { BrowserRouter } from "React-router-dom";
+import { BrowserRouter } from "react-router-dom";
+
 import { AUTHContextProvider } from "./context/AuthContext.jsx";
 
 // Tạo root DOM nơi ứng dụng React sẽ được render vào
